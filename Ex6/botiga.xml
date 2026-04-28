@@ -1,1 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<botiga
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="botiga.xsd">
 
+  <producte id="P01" estat="nou">
+    <nom>Portàtil Lenovo</nom>
+    <preu>699.99</preu>
+    <stock>10</stock>
+    <categoria>informatica</categoria>
+    <marca>Lenovo</marca>
+    <etiqueta>ordinador</etiqueta>
+    <etiqueta>tecnologia</etiqueta>
+  </producte>
+
+  <producte id="P02" estat="oferta">
+    <nom>Conte infantil</nom>
+    <preu>12.50</preu>
+    <stock>25</stock>
+    <categoria>llibres</categoria>
+    <etiqueta>lectura</etiqueta>
+    <etiqueta>infantil</etiqueta>
+  </producte>
+
+</botiga>
