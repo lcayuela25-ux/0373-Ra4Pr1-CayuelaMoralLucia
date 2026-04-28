@@ -1,1 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE activitats SYSTEM "activitats.dtd">
+<activitats>
+  <activitat codi="ACT01" tipus="esportiva">
+    <nom>Futbol sala</nom>
+    <monitor>Joan Puig</monitor>
+    <horari>Dilluns 17:00</horari>
+    <participant>Aina</participant>
+    <participant>Marc</participant>
+    <lloc>exterior</lloc>
+  </activitat>
 
+  <activitat codi="ACT02" tipus="artistica">
+    <nom>Pintura</nom>
+    <monitor>Laura Soler</monitor>
+    <participant>Nora</participant>
+    <participant>Pau</participant>
+    <lloc>interior</lloc>
+  </activitat>
+</activitats>
