@@ -1,1 +1,11 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<persona dni="12345678A"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="persona.xsd">
+  <nom>Clara</nom>
+  <edat>22</edat>
+  <ciutat>Girona</ciutat>
+  <aficio>lectura</aficio>
+  <aficio>música</aficio>
+  <nivell>mitja</nivell>
+</persona>
