@@ -1,1 +1,22 @@
-
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="persona">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nom" type="xs:string"/>
+        <xs:element name="edat" type="xs:integer"/>
+        <xs:element name="ciutat" type="xs:string"/>
+        <xs:element name="aficio" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="nivell">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="baix"/>
+              <xs:enumeration value="mitja"/>
+              <xs:enumeration value="alt"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="dni" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
