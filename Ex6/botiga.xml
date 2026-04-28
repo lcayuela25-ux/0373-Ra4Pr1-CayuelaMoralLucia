@@ -4,22 +4,22 @@
   xsi:noNamespaceSchemaLocation="botiga.xsd">
 
   <producte id="P01" estat="nou">
-    <nom>Portàtil Lenovo</nom>
-    <preu>699.99</preu>
-    <stock>10</stock>
+    <nom>Macbook Neo</nom>
+    <preu>800</preu>
+    <stock>500</stock>
     <categoria>informatica</categoria>
-    <marca>Lenovo</marca>
+    <marca>Apple</marca>
     <etiqueta>ordinador</etiqueta>
     <etiqueta>tecnologia</etiqueta>
   </producte>
 
   <producte id="P02" estat="oferta">
-    <nom>Conte infantil</nom>
-    <preu>12.50</preu>
-    <stock>25</stock>
+    <nom>Llibre</nom>
+    <preu>25</preu>
+    <stock>100</stock>
     <categoria>llibres</categoria>
     <etiqueta>lectura</etiqueta>
-    <etiqueta>infantil</etiqueta>
+    <etiqueta>Lectura</etiqueta>
   </producte>
 
 </botiga>
