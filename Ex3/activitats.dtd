@@ -1,1 +1,11 @@
-
+<!ELEMENT activitats (activitat+)>
+<!ELEMENT activitat (nom, monitor, horari?, participant+, lloc)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT monitor (#PCDATA)>
+<!ELEMENT horari (#PCDATA)>
+<!ELEMENT participant (#PCDATA)>
+<!ELEMENT lloc (interior | exterior)>
+<!ELEMENT interior EMPTY>
+<!ELEMENT exterior EMPTY>
+<!ATTLIST activitat codi CDATA #REQUIRED
+                    tipus (esportiva | artistica) #REQUIRED>
