@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE alumne SYSTEM "alumne.dtd">
 <alumne id="A01" tipus="presencial">
-  <nom>Maria</nom>
-  <cognom>Garcia</cognom>
-  <telefon>600123456</telefon>
-  <email>maria@example.com</email>
+  <nom>Lucia</nom>
+  <cognom>Cayuela</cognom>
+  <telefon>622062276</telefon>
+  <email>lcayuela25@ilb.cat</email>
   <modul>Llenguatges de marques</modul>
   <modul>Bases de dades</modul>
 </alumne>
